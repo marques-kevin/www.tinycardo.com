@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "tinycardo"
+  },
+  "targets": {
+    "tinycardo": {
+      "hosting": {
+        "tinycardo-landing": [
+          "tinycardo-landing"
+        ]
+      }
+    }
   }
 }
