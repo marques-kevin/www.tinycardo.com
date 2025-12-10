@@ -1,0 +1,85 @@
+{
+  "type": "page",
+  "meta": {
+    "indexable": true,
+    "title": "Foudroyer, indexing tool for google, yandex, bing, naver",
+    "description": "Foudroyer allows you to centralize in one place everything you need to reach the top 1 on search engines."
+  },
+  "id": "c349ed44-93e6-4bc2-8580-f0e06c17a980",
+  "published_at": "2024-09-19T16:41:06.013Z",
+  "updated_at": "2024-09-19T16:41:06.013Z",
+  "url": "home",
+  "lang": "en",
+  "content": [
+    {
+      "type": "marketing/hero",
+      "label": {
+        "value": "Disponible sur mobile et web",
+        "component": "p"
+      },
+      "title": {
+        "value": "L'application de muscu ultime.",
+        "component": "h1"
+      },
+      "description": "Musculatus est une application gratuite, hors ligne, qui vous permet de suivre vos entraînements, votre poids, vos performances, et vos objectifs et tout un tas de metrics."
+    },
+    {
+      "type": "marketing/features",
+      "label": {
+        "value": "The index at the speed of light",
+        "component": "p"
+      },
+      "title": {
+        "value": "Foudroyer Indexing",
+        "component": "h2"
+      },
+      "description": "Foudroyer Indexation is a tool that allows you to index your website on search engines in seconds. Just add your site, click, and voilà, your site is indexed.",
+      "features": [
+        {
+          "title": {
+            "value": "One-click indexing",
+            "component": "h3"
+          },
+          "description": "You added or updated a page? Click the button and your site will be indexed.",
+          "video": {
+            "autoplay": true,
+            "alt": "One-click indexing demonstration",
+            "src": "../assets/one-click-indexing.mp4",
+            "illustration": "../assets/one-click-indexing.jpg"
+          }
+        },
+        {
+          "title": {
+            "value": "Now on several search engines.",
+            "component": "h3"
+          },
+          "description": "Simultaneous indexing on Google, Bing, Yandex, and Naver has never been easier.",
+          "video": {
+            "autoplay": true,
+            "alt": "multi-engine search for indexing",
+            "src": "../assets/multi-search-engines.mp4",
+            "illustration": "../assets/multi-search-engines.jpg"
+          }
+        },
+        {
+          "title": {
+            "value": "The site plan is automatically analyzed.",
+            "component": "h3"
+          },
+          "description": "We automatically analyze your sitemap and index all your pages in the blink of an eye.",
+          "video": {
+            "autoplay": true,
+            "alt": "sync sitemap easily",
+            "src": "../assets/sync-sitemap.mp4",
+            "illustration": "../assets/sync-sitemap.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "type": "marketing/pricing",
+      "show": true,
+      "scope": "indexation"
+    }
+  ]
+}

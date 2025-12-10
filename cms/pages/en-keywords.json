@@ -1,0 +1,149 @@
+{
+  "type": "page",
+  "meta": {
+    "indexable": true,
+    "title": "Keywords - Track your Google keyword positions",
+    "description": "With Foudroyer Keywords, you can track all your keywords from Google in one place."
+  },
+  "id": "29281653-e421-4201-8fe7-5b67710ca4dd",
+  "published_at": "2023-11-16T14:51:10.003Z",
+  "updated_at": "2023-11-16T14:51:10.010Z",
+  "lang": "en",
+  "url": "keywords",
+  "content": [
+    {
+      "type": "marketing/product-of-the-day",
+      "id": "525a48f9-67df-4372-b855-07ae2d8cb1a3"
+    },
+    {
+      "type": "marketing/hero",
+      "label": {
+        "value": "Google keyword tracking made simple",
+        "component": "p"
+      },
+      "title": {
+        "value": "Know exactly where you rank on Google",
+        "component": "h1"
+      },
+      "description": "Import your top queries from Google Search Console, track unlimited keywords with daily updates, and get clear insights to grow your organic traffic."
+    },
+    {
+      "type": "marketing/buttons",
+      "buttons": [
+        {
+          "type": "authentication",
+          "label": "Try for free",
+          "size": "md",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "marketing/users-and-stars",
+      "id": "3ac14590-3228-4e15-b5ce-df967c40b292"
+    },
+    {
+      "type": "marketing/video",
+      "autoplay": true,
+      "alt": "Introduction to Foudroyer Keywords tool",
+      "src": "../assets/keywords/hero.mp4",
+      "illustration": "../assets/keywords-demo-landing.jpg"
+    },
+    {
+      "type": "marketing/features",
+      "label": {
+        "value": "Foudroyer Keywords",
+        "component": "p"
+      },
+      "title": {
+        "value": "Everything you need to track your keywords.",
+        "component": "h2"
+      },
+      "description": "From automatic website setup to advanced analytics - track your search performance like never before.",
+      "features": [
+        {
+          "title": {
+            "value": "Add Your Websites",
+            "component": "p"
+          },
+          "description": "Simply connect your Google Search Console account to get started. Your website's data will be automatically imported, including your top-performing keywords. No manual setup required!",
+          "video": {
+            "autoplay": true,
+            "alt": "Video showing how to automatically import websites and keywords from Google Search Console",
+            "src": "../assets/keywords/1.mp4",
+            "illustration": "../assets/sync-sitemap.jpg"
+          }
+        },
+        {
+          "title": {
+            "value": "Manage Your Keywords",
+            "component": "p"
+          },
+          "description": "Add multiple keywords at once and organize them into groups. Our intuitive interface makes it easy to track and sort your rankings by position, clicks, or impressions. You can easily select keywords and remove them from the list.",
+          "video": {
+            "autoplay": true,
+            "alt": "Video describing how to add and manage keywords efficiently",
+            "src": "../assets/keywords/2.mp4",
+            "illustration": "../assets/sync-sitemap.jpg"
+          }
+        },
+        {
+          "title": {
+            "value": "Multi-Dimensional Analysis",
+            "component": "p"
+          },
+          "description": "Explore interactive graphs showing your keyword performance over time. Click on any keyword to see detailed analytics, including search volume trends, click-through rates, and how it correlates with your Google Analytics data for a complete performance picture.",
+          "video": {
+            "autoplay": true,
+            "alt": "Video showing interactive analytics and detailed keyword performance data",
+            "src": "../assets/keywords/3.mp4",
+            "illustration": "../assets/sync-sitemap.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "type": "marketing/faq",
+      "title": {
+        "value": "Everything you need to know about Keywords tracking",
+        "component": "h2"
+      },
+      "items": [
+        {
+          "question": "How do I connect my Google Search Console?",
+          "answer": "Simply click on 'Add Website' in your dashboard and follow the authentication process. We'll automatically import your website's data and top-performing keywords within minutes.",
+          "component": "p"
+        },
+        {
+          "question": "Can I track keywords from multiple search engines?",
+          "answer": "We currently support Google only.",
+          "component": "p"
+        },
+        {
+          "question": "How often are keyword positions updated?",
+          "answer": "Keyword positions are updated daily to give you the most current ranking data. You can track changes over time and spot trends quickly.",
+          "component": "p"
+        },
+        {
+          "question": "Is there a limit to how many keywords I can track?",
+          "answer": "No limits! Track as many keywords as you need across all your websites. Our system is designed to handle large-scale keyword monitoring efficiently.",
+          "component": "p"
+        },
+        {
+          "question": "Can I see historical keyword performance data?",
+          "answer": "Absolutely! View interactive graphs showing your keyword performance over time, including position changes, click-through rates, and correlation with your Google Analytics data.",
+          "component": "p"
+        },
+        {
+          "question": "How do I organize my keywords?",
+          "answer": "You can add multiple keywords at once and organize them into custom groups. Sort by position, clicks, impressions, or any other metric that matters to your SEO strategy.",
+          "component": "p"
+        }
+      ]
+    },
+    {
+      "type": "marketing/pricing",
+      "show": true
+    }
+  ]
+}

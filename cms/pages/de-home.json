@@ -1,0 +1,95 @@
+{
+  "type": "page",
+  "meta": {
+    "indexable": true,
+    "title": "Foudroyer, Indizierungswerkzeug für Google, Yandex, Bing, Naver",
+    "description": "Foudroyer ermöglicht es Ihnen, alles, was Sie benötigen, um die Top 1 in Suchmaschinen zu erreichen, an einem Ort zu zentralisieren."
+  },
+  "id": "4bcf1f5b-c80d-4f3b-bace-5043a1542222",
+  "published_at": "2025-02-09T04:27:32.355Z",
+  "updated_at": "2025-02-09T04:27:32.355Z",
+  "url": "home",
+  "lang": "de",
+  "content": [
+    {
+      "type": "marketing/product-of-the-day",
+      "id": "525a48f9-67df-4372-b855-07ae2d8cb1a3"
+    },
+    {
+      "type": "marketing/hero",
+      "label": {
+        "value": "Keine weiteren Schwierigkeiten im Zusammenhang mit der Indizierung.",
+        "component": "p"
+      },
+      "title": {
+        "value": "Indizieren Sie Ihre Seiten _auf **allen Suchmaschinen** in 2 Tagen_",
+        "component": "h1"
+      },
+      "description": "Schließen Sie Ihre Website in Sekundenschnelle an, indexieren Sie eine unbegrenzte Anzahl von Seiten und erzielen Sie hohe Platzierungen bei Google, Bing, Yandex und Naver. Analysieren Sie dann Ihren Traffic, verfolgen Sie Keyword-Positionen und finden Sie Möglichkeiten."
+    },
+    {
+      "type": "marketing/buttons",
+      "buttons": [
+        {
+          "type": "authentication",
+          "label": "Kostenlos ausprobieren",
+          "size": "md",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "marketing/users-and-stars",
+      "id": "3ac14590-3228-4e15-b5ce-df967c40b292"
+    },
+    { "type": "marketing/testimonials", "show": true },
+    {
+      "type": "marketing/features",
+      "label": {
+        "value": "Der Index mit Lichtgeschwindigkeit",
+        "component": "p"
+      },
+      "title": { "value": "Foudroyer Indizierung", "component": "h2" },
+      "description": "Foudroyer Indexation ist ein Tool, mit dem Sie Ihre Website in Sekundenschnelle in Suchmaschinen indexieren können. Fügen Sie einfach Ihre Seite hinzu, klicken Sie, und voilà, Ihre Seite ist indexiert.",
+      "features": [
+        {
+          "title": { "value": "Ein-Klick-Indizierung", "component": "h3" },
+          "description": "Haben Sie eine Seite hinzugefügt oder aktualisiert? Klicken Sie auf die Schaltfläche und Ihre Website wird indexiert.",
+          "video": {
+            "autoplay": true,
+            "alt": "Demonstration der Ein-Klick-Indizierung",
+            "src": "../assets/one-click-indexing.mp4",
+            "illustration": "../assets/one-click-indexing.jpg"
+          }
+        },
+        {
+          "title": {
+            "value": "Jetzt auf mehreren Suchmaschinen.",
+            "component": "h3"
+          },
+          "description": "Gleichzeitiges Indexieren auf Google, Bing, Yandex und Naver war noch nie einfacher.",
+          "video": {
+            "autoplay": true,
+            "alt": "Mehrmaschinen-Suche zur Indexierung",
+            "src": "../assets/multi-search-engines.mp4",
+            "illustration": "../assets/multi-search-engines.jpg"
+          }
+        },
+        {
+          "title": {
+            "value": "Der Lageplan wird automatisch analysiert.",
+            "component": "h3"
+          },
+          "description": "Wir analysieren automatisch Ihre Sitemap und indexieren alle Ihre Seiten im Handumdrehen.",
+          "video": {
+            "autoplay": true,
+            "alt": "Sitemap einfach synchronisieren",
+            "src": "../assets/sync-sitemap.mp4",
+            "illustration": "../assets/sync-sitemap.jpg"
+          }
+        }
+      ]
+    },
+    { "type": "marketing/pricing", "show": true, "scope": "indexation" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "published_at": "2024-02-16T13:39:02.397Z",
+  "lang": "en",
+  "campaign": "multiple-sitemap",
+  "updated_at": "2024-02-16T13:39:02.401Z",
+  "title": "You can add multiple sitemaps!",
+  "content": [
+    {
+      "type": "article/title",
+      "value": "You can add multiple sitemaps!",
+      "component": "h1"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "Previously, only a sitemap could be added and synchronized on Foudroyer. Today, you can add several, making the experience simpler for everyone."
+    },
+    {
+      "type": "article/video",
+      "autoplay": true,
+      "alt": "default alt",
+      "src": "../assets/news-multiple-sitemap-show.mp4",
+      "illustration": "../assets/news-multiple-sitemap-show.jpg"
+    },
+    {
+      "type": "article/title",
+      "value": "See errors happening in your sitemaps",
+      "component": "h2"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "Sometimes your sitemaps have errors. In such cases, we can't synchronize them with Foudroyer. If an error occurs, you'll see it in the sitemap manager.\n\nLater, I'll develop an email alert to notify you if this happens."
+    }
+  ],
+  "type": "news",
+  "id": "15b8190d-4f88-4da2-8fc6-12e503a013a0",
+  "description": "Previously, only a sitemap could be added and synchronized on Foudroyer. Today, you can add several, making the experience simpler for everyone."
+}

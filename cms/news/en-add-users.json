@@ -1,0 +1,37 @@
+{
+  "published_at": "2024-01-23T10:07:36.734Z",
+  "lang": "en",
+  "campaign": "add-users",
+  "updated_at": "2024-01-23T10:07:36.738Z",
+  "title": "You can invite users.",
+  "content": [
+    {
+      "type": "article/title",
+      "value": "You can add users to your websites",
+      "component": "h1"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "One feature that has been much requested by seo agencies is the ability to allow their clients to access the dashboard, view indexing status and even make indexing requests.\n\nThis is now possible by going to the settings page, as in the video below."
+    },
+    {
+      "type": "article/video",
+      "autoplay": true,
+      "alt": "add a user",
+      "src": "../assets/add-user.mp4",
+      "illustration": "../assets/add-user.png"
+    },
+    {
+      "type": "article/title",
+      "value": "Add all your Search Console accounts to a single account",
+      "component": "h2"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "Connect to Foudroyer for free with all your Search Console accounts and add your main account. This allows you to centralize all your Search Console accounts in a single account."
+    }
+  ],
+  "type": "news",
+  "id": "49d03f22-53a2-4de3-aa56-899f392259ab",
+  "description": "The ability to share Google Search Console accounts is one of the most requested features. With this new feature, you can add rights to other users without going through Search Console."
+}

@@ -1,0 +1,25 @@
+{
+  "published_at": "2025-06-04T10:00:00.000Z",
+  "lang": "en",
+  "campaign": "health-feature",
+  "updated_at": "2025-06-04T10:00:00.000Z",
+  "title": "Introducing the Health Check Feature!",
+  "content": [
+    {
+      "type": "article/title",
+      "value": "Monitor your site's health with Foudroyer.",
+      "component": "h1"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "We're thrilled to launch the new Health Check feature! Now you can easily monitor your website's health, receive alerts for issues, and get actionable insights to keep your site running smoothly."
+    },
+    {
+      "type": "article/rich_text",
+      "content": "Try it out today and ensure your site is always in top shape!"
+    }
+  ],
+  "type": "news",
+  "id": "health-feature-2025-06-06",
+  "description": "Monitor your website's health and get actionable insights with Foudroyer's new Health Check feature."
+}

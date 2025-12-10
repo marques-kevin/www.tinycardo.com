@@ -1,0 +1,121 @@
+{
+  "type": "page",
+  "meta": {
+    "indexable": true,
+    "title": "Analytics - Analyze your site's traffic in the blink of an eye",
+    "description": "With Analytics, you can filter, record, analyze your sites' statistics at lightning speed."
+  },
+  "id": "74b00f32-0000-4000-a000-000000000001",
+  "published_at": "2024-01-01T00:00:00.000Z",
+  "updated_at": "2024-01-01T00:00:00.000Z",
+  "url": "analytics",
+  "lang": "en",
+  "content": [
+    {
+      "type": "marketing/product-of-the-day",
+      "show": true
+    },
+    {
+      "type": "marketing/hero",
+      "label": {
+        "value": "Just Foudroyer Analytics",
+        "component": "p"
+      },
+      "title": {
+        "value": "**Google**, **Bing** and **Yandex**, _let's centralize analytics in one place._",
+        "component": "h1"
+      },
+      "description": "Connect your Google Search Console, Bing Webmaster Tools and Yandex Webmaster accounts to analyze all your traffic data in one place."
+    },
+    {
+      "type": "marketing/buttons",
+      "buttons": [
+        {
+          "type": "authentication",
+          "label": "Try for free with Google",
+          "size": "lg",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "marketing/users-and-stars",
+      "id": "3ac14590-3228-4e15-b5ce-df967c40b292"
+    },
+    {
+      "type": "marketing/testimonials",
+      "show": true
+    },
+    {
+      "type": "marketing/features",
+      "label": {
+        "value": "Compare, Analyse, Take off",
+        "component": "p"
+      },
+      "title": {
+        "value": "Show all your websites stats in the same page",
+        "component": "h2"
+      },
+      "description": "Foudroyer Analytics drastically improves the understanding of your site's traffic, allowing you to take action at the right time and surge in search engine results.",
+      "features": [
+        {
+          "title": {
+            "value": "Simplified navigation",
+            "component": "h3"
+          },
+          "description": "Wave goodbye to complicated dates filters. Navigate easily through time.",
+          "video": {
+            "autoplay": true,
+            "alt": "analytics simple navigation",
+            "src": "../assets/simple-navigation.mp4",
+            "illustration": "../assets/simple-navigation.jpeg"
+          }
+        },
+        {
+          "title": {
+            "value": "Advanced filters",
+            "component": "h3"
+          },
+          "description": "Finally understand the traffic on your sites and easily identify sudden changes that are hard to spot.",
+          "video": {
+            "autoplay": true,
+            "alt": "analytics advanced filters",
+            "src": "../assets/advanced-filter-analytics.mp4",
+            "illustration": "../assets/advanced-filter-analytics.jpeg"
+          }
+        },
+        {
+          "title": {
+            "value": "Compare results",
+            "component": "h3"
+          },
+          "description": "Comparison is key to learn what your users look for. It's natively integrated in our interface.",
+          "video": {
+            "autoplay": true,
+            "alt": "analytics performance comparison",
+            "src": "../assets/performance-comparison.mp4",
+            "illustration": "../assets/performance-comparison.jpeg"
+          }
+        },
+        {
+          "title": {
+            "value": "Google, Bing, Yandex, increase your traffic",
+            "component": "h3"
+          },
+          "description": "Being indexed on multiple search engines can radically increase your traffic. We make that easy for you.",
+          "video": {
+            "autoplay": true,
+            "alt": "analytics multi search engines",
+            "src": "../assets/analytics-multi-search-engines.mp4",
+            "illustration": "../assets/analytics-multi-search-engines.jpeg"
+          }
+        }
+      ]
+    },
+    {
+      "type": "marketing/pricing",
+      "show": true,
+      "scope": "indexation"
+    }
+  ]
+}

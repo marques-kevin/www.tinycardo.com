@@ -1,0 +1,109 @@
+{
+  "type": "page",
+  "meta": {
+    "indexable": true,
+    "title": "Todo, website specific task manager",
+    "description": "Foudroyer's Todo helps you manage everything you need to do for each of your websites, from content creation to bug fixes."
+  },
+  "id": "en-todo",
+  "published_at": "2025-07-09T00:00:00.000Z",
+  "updated_at": "2025-07-09T00:00:00.000Z",
+  "url": "todo",
+  "lang": "en",
+  "content": [
+    {
+      "type": "marketing/product-of-the-day",
+      "id": "3ac14590-3228-4e15-b5ce-df967e40b292"
+    },
+    {
+      "type": "marketing/hero",
+      "label": {
+        "value": "Stay organized, grow your business",
+        "component": "p"
+      },
+      "title": {
+        "value": "**Todo-list centralized**, _grow each websites easily_",
+        "component": "h1"
+      },
+      "description": "Track everything you need to do per website. Whether it’s publishing a blog post, fixing a layout bug, or planning your next feature, all tasks live where they belong: per site."
+    },
+    {
+      "type": "marketing/buttons",
+      "buttons": [
+        {
+          "type": "authentication",
+          "label": "Create your first todo-list",
+          "size": "lg",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "marketing/users-and-stars",
+      "id": "3ac14590-3228-4e15-b5ce-df967c40b292"
+    },
+    {
+      "type": "marketing/testimonials",
+      "show": true
+    },
+    {
+      "type": "marketing/features",
+      "label": {
+        "value": "Tasks made for web teams",
+        "component": "p"
+      },
+      "title": {
+        "value": "Your Website’s Todo list",
+        "component": "h2"
+      },
+      "description": "From content updates to QA to performance reviews — organize all your team’s work in one place, per website.",
+      "features": [
+        {
+          "title": {
+            "value": "Create a todo-list for each website",
+            "component": "h3"
+          },
+          "description": "Each site in Foudroyer has its own todo list. Keep your workflows clean and focused.",
+          "video": {
+            "autoplay": true,
+            "alt": "flexible task creation",
+            "src": "../assets/todo/features/add-website.mp4",
+            "illustration": "../assets/advanced-filter-analytics.jpeg"
+          }
+        },
+        {
+          "title": {
+            "value": "Add tasks for anything",
+            "component": "h3"
+          },
+          "description": "Add tasks for anything, writing, coding, design, performance.",
+          "video": {
+            "autoplay": true,
+            "alt": "flexible task creation",
+            "src": "../assets/todo/features/add-task.mp4",
+            "illustration": "../assets/advanced-filter-analytics.jpeg"
+          }
+        },
+        {
+          "title": {
+            "value": "Mark tasks as done",
+            "component": "h3"
+          },
+          "description": "Mark tasks as done to keep track of your progress. You can also add comments and share with your team.",
+          "video": {
+            "autoplay": true,
+            "alt": "flexible task creation",
+            "src": "../assets/todo/features/accomplish-task.mp4",
+            "illustration": "../assets/advanced-filter-analytics.jpeg"
+          }
+        }
+      ]
+    },
+
+    {
+      "type": "marketing/pricing",
+      "show": true,
+      "scope": "indexation"
+    }
+  ]
+}

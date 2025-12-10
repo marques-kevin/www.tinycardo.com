@@ -1,0 +1,25 @@
+{
+  "published_at": "2025-05-02T10:00:00.000Z",
+  "lang": "en",
+  "campaign": "dashboard-rebranding",
+  "updated_at": "2025-05-02T10:00:00.000Z",
+  "title": "Foudroyer gets a fresh new look!",
+  "content": [
+    {
+      "type": "article/title",
+      "value": "Foudroyer is changing its UI for better readability and next features.",
+      "component": "h1"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "We are excited to announce a complete redesign of the Foudroyer dashboard! The new interface is cleaner, more readable, and sets the stage for powerful features coming soon. Navigation is now more intuitive, and the overall experience is faster and more enjoyable."
+    },
+    {
+      "type": "article/rich_text",
+      "content": "This update is just the beginning. Stay tuned for more features and improvements!"
+    }
+  ],
+  "type": "news",
+  "id": "dashboard-rebranding-2025-06-06",
+  "description": "Discover Foudroyer's new dashboard UI, designed for clarity and future features."
+}

@@ -1,0 +1,25 @@
+{
+  "published_at": "2025-05-23T10:00:00.000Z",
+  "lang": "en",
+  "campaign": "sitemaps-feature",
+  "updated_at": "2025-04-23T10:00:00.000Z",
+  "title": "Sitemaps Feature Now Available!",
+  "content": [
+    {
+      "type": "article/title",
+      "value": "Easily manage your sitemaps with Foudroyer.",
+      "component": "h1"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "Foudroyer now supports advanced sitemap management! Submit, monitor, and analyze your sitemaps directly from your dashboard. This feature helps ensure your site is indexed efficiently and keeps you informed about your site's discoverability."
+    },
+    {
+      "type": "article/rich_text",
+      "content": "Start using the Sitemaps feature today to boost your site's visibility!"
+    }
+  ],
+  "type": "news",
+  "id": "sitemaps-feature-2025-06-06",
+  "description": "Announcing Foudroyer's new Sitemaps feature for easy management and better site indexing."
+}

@@ -1,0 +1,44 @@
+{
+  "type": "page",
+  "meta": {
+    "indexable": true,
+    "title": "XML Sitemap Checker | Foudroyer",
+    "description": "Check your XML sitemaps for errors and monitor their health. Get alerts when issues are found and ensure your sitemaps are properly configured."
+  },
+  "id": "941e19c4-b9f2-405f-8a96-59d3296c6d10",
+  "published_at": "2025-06-05T10:47",
+  "updated_at": "2025-06-05T10:47",
+  "lang": "en",
+  "url": "sitemaps",
+  "content": [
+    {
+      "type": "marketing/product-of-the-day",
+      "id": "a871a334-ce56-41e1-9459-2d8d4cdc0de0"
+    },
+    {
+      "type": "marketing/hero",
+      "id": "c808a6a6-febd-449f-bb73-541441a9962b",
+      "label": {
+        "value": "XML Sitemap Checker",
+        "component": "p"
+      },
+      "title": {
+        "value": "Does your **sitemaps** work?",
+        "component": "h1"
+      },
+      "description": "Check your XML sitemaps for errors and monitor their health. Get alerts when issues are found and ensure your sitemaps are properly configured."
+    },
+    {
+      "type": "marketing/sitemaps",
+      "id": "c808a6a6-febd-449f-bb73-541441a9962b"
+    },
+    {
+      "type": "marketing/users-and-stars",
+      "id": "c9ee572e-8b48-473c-a8d5-6f76ddeaf7e9"
+    },
+    {
+      "type": "marketing/testimonials",
+      "show": true
+    }
+  ]
+}

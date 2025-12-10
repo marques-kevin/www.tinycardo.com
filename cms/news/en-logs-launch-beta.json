@@ -1,0 +1,42 @@
+{
+  "published_at": "2024-06-26T12:55:13.220Z",
+  "lang": "en",
+  "campaign": "logs-launch-beta",
+  "updated_at": "2024-06-26T12:54:54.181Z",
+  "title": "A new feature has arrived!",
+  "content": [
+    {
+      "type": "article/title",
+      "value": "Do you also make changes to your sites but aren't sure if these changes have a negative or positive impact?",
+      "component": "h1"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "I have also had this problem for a while, and no solution was satisfactory. I used to have a file on Notion or Excel that listed all the changes made to the site, and I would manually retrieve data from the Search Console to track the progress and results."
+    },
+    {
+      "type": "article/image",
+      "alt": "default alt",
+      "legend": "",
+      "src": "../assets/news-logs-1.jpg"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "Today, all you need to do is log in to Foudroyer, select your site, and simply add new logs. Then, Foudroyer takes care of retrieving the official data for visits and impressions, showing you at a glance whether your changes have had a positive or negative impact."
+    },
+    {
+      "type": "article/video",
+      "autoplay": true,
+      "alt": "default alt",
+      "src": "../assets/news-logs-2.mp4",
+      "illustration": "../assets/news-logs-2-thumb.jpg"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "Feel free to send me your feedback via the support service! I'm excited to improve the features based on your needs."
+    }
+  ],
+  "type": "news",
+  "id": "876d3eb2-50e1-4b42-a412-4dbba1dbceb8",
+  "description": "Make changes to your sites, record these changes in a guestbook, and track your performance improvements."
+}

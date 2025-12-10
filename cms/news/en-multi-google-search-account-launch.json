@@ -1,0 +1,37 @@
+{
+  "published_at": "2024-04-07T15:29:02.058Z",
+  "lang": "en",
+  "campaign": "multi-google-search-account-launch",
+  "updated_at": "2024-04-07T15:29:02.062Z",
+  "title": "You can now add multiple Google Search Console accounts.",
+  "content": [
+    {
+      "type": "article/title",
+      "value": "One Foudroyer account to rule them all.",
+      "component": "h1"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "Many of you have multiple Google Search Console accounts. Now, instead of creating multiple Foudroyer accounts, you can simply connect to your favorite account, and centralize all your accounts."
+    },
+    {
+      "type": "article/video",
+      "autoplay": true,
+      "alt": "default alt",
+      "src": "../assets/multiple-google-account-news.mp4",
+      "illustration": "../assets/multiple-google-account-news.jpg"
+    },
+    {
+      "type": "article/title",
+      "value": "I need your feedback!",
+      "component": "h2"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "This is a new feature, so I need your feedback. I'm available via support if you have any problems or recommendations. \n\n\n\nThanks a lot!"
+    }
+  ],
+  "type": "news",
+  "id": "2349dec5-f246-403f-bec6-f173de259cdb",
+  "description": "It's a feature many have been asking for, and it's officially live. Connect all your Google Search Console accounts in a single Foudroyer account."
+}

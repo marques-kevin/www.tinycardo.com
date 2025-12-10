@@ -1,0 +1,32 @@
+{
+  "published_at": "2025-07-09T16:10",
+  "lang": "en",
+  "campaign": "todo-list-feature-launch",
+  "updated_at": "2025-07-09T16:10",
+  "title": "🚀 New Feature on Foudroyer: Todo List!",
+  "content": [
+    {
+      "type": "article/title",
+      "value": "🚀 New Feature on Foudroyer: Todo List!",
+      "component": "h1"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "We're excited to introduce the Todo List feature on Foudroyer, a simple, powerful tool to help you stay organized and productive."
+    },
+    {
+      "type": "article/video",
+      "autoplay": true,
+      "alt": "default alt",
+      "src": "../assets/1.mp4",
+      "illustration": "../assets/add-keywords-easily.png"
+    },
+    {
+      "type": "article/rich_text",
+      "content": "✅ Create and manage your todo lists directly on the web\n\n📋 Todo lists are linked to each website, so you can manage tasks per site, perfect if you handle multiple websites\n\n🎯 Track your tasks, set goals, and stay focused\n\nPerfect for daily planning, team projects, or personal reminders. Give it a try today!\n\n💬 Need help? I’m here for you on our support platform, don’t hesitate to reach out!"
+    }
+  ],
+  "type": "news",
+  "id": "b30cae1b-aa7f-4a42-85b4-9f70d1922de5",
+  "description": "We're excited to introduce the Todo List feature on Foudroyer, a simple, powerful tool to help you stay organized and productive."
+}

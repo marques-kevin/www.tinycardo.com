@@ -1,0 +1,10 @@
+.cache
+package.json
+package-lock.json
+public
+static
+.github
+gatsby-ssr.tsx
+wrap-root-element.tsx
+wrap-page-element.tsx
+.storybook/*
