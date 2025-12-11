@@ -1,5 +1,7 @@
 import { ModalKeys } from "@/entities/ModalEntity"
+import { addHash, removeHash } from "@/lib/utils"
 import { useLocation } from "@reach/router"
+import { navigate } from "gatsby"
 
 export const useModal = (key: ModalKeys) => {
   const { hash } = useLocation()
@@ -13,11 +15,15 @@ export const useModal = (key: ModalKeys) => {
 
   const onOpenChange = (params?: { source?: string; value?: string }) => {
     if (isOpen) {
+      navigate(removeHash({ path: key, currentHash: hash }) as string)
     } else {
-      const source_to_use =
-        typeof params?.source === "string" ? params.source : undefined
-      const value_to_use =
-        typeof params?.value === "string" ? params.value : undefined
+      navigate(
+        addHash({
+          path: key,
+          currentHash: hash,
+          value: params?.value,
+        }) as string
+      )
     }
   }
 

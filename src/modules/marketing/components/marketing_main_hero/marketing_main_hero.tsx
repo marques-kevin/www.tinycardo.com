@@ -1,5 +1,6 @@
+import { As } from "@/components/general/As/As"
+import type { MarketingHeroEntity } from "@/entities/PageEntity"
 import { MarketingMainHeroDeck } from "@/modules/marketing/components/marketing_main_hero_deck/marketing_main_hero_deck"
-import { ChevronRightIcon } from "lucide-react"
 import { useIntl } from "react-intl"
 
 const BackgroundGradient = () => (
@@ -34,42 +35,32 @@ const BackgroundGradient = () => (
   </svg>
 )
 
-function Label() {
-  const { formatMessage } = useIntl()
-
+function Label(props: MarketingHeroEntity["label"]) {
   return (
-    <a className="rounded-box inline-flex items-center border-2 px-4 py-2">
-      <span className="font-semibold text-accent-content">
-        {formatMessage({ id: "hero/label/start" })}
-      </span>
-      <span aria-hidden="true" className="h-4 w-px mx-2 bg-base-content" />
-      <span className="flex items-center gap-x-1">
-        {formatMessage({ id: "hero/label/end" })}
-        <ChevronRightIcon
-          aria-hidden="true"
-          className="-mr-2 size-5 text-base-content/70"
-        />
-      </span>
-    </a>
+    <As
+      component={props!.component}
+      className="rounded-box inline-flex items-center border-2 px-4 py-2"
+    >
+      {props!.value}
+    </As>
   )
 }
 
-function Title() {
-  const { formatMessage } = useIntl()
-
+function Title(props: MarketingHeroEntity["title"]) {
   return (
-    <h1 className="mt-10 text-5xl font-semibold tracking-tight sm:text-7xl">
-      {formatMessage({ id: "hero/title" })}
-    </h1>
+    <As
+      component={props.component}
+      className="mt-10 text-5xl font-semibold tracking-tight sm:text-7xl"
+    >
+      {props.value}
+    </As>
   )
 }
 
-function Description() {
-  const { formatMessage } = useIntl()
-
+function Description(props: { value: string }) {
   return (
     <p className="mt-8 text-lg font-medium text-base-content/70 sm:text-xl/8">
-      {formatMessage({ id: "hero/description" })}
+      {props.value}
     </p>
   )
 }
@@ -86,16 +77,16 @@ function Actions() {
   )
 }
 
-export function MarketingMainHero() {
+export function MarketingMainHero(props: MarketingHeroEntity) {
   return (
     <div className="relative isolate pt-24">
       <BackgroundGradient />
 
       <div className="mx-auto max-w-7xl px-6 py-8 lg:flex lg:items-center lg:gap-x-10 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
-          <Label />
-          <Title />
-          <Description />
+          {props.label && <Label {...props.label} />}
+          <Title {...props.title} />
+          <Description value={props.description} />
           <Actions />
         </div>
         <div className="mt-16 sm:mt-24 lg:mt-0 lg:shrink-0 lg:grow">

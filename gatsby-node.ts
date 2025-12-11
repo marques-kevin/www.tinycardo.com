@@ -20,7 +20,6 @@ import zh from "./src/i18n/messages/zh.json"
 const messages = { en, fr, es, de, it, ja, ko, pt, ru, tr, zh, ar }
 
 const PageTemplate = path.resolve(`./src/templates/page.tsx`)
-const HomeTemplate = path.resolve(`./src/templates/home.tsx`)
 
 const normalize = (lang: string, url: string) => {
   const isHome = url === "home"
@@ -46,69 +45,35 @@ export const createPages: GatsbyNode["createPages"] = async ({
   const pages = result.data.pages.nodes.map((page) => {
     return {
       ...page,
-      content: page.content.map((content) => {
-        if (content.type === "marketing/users-and-stars") {
-          return {
-            ...content,
-            nbUsers: 0,
-          }
-        }
-
-        if (content.type === "marketing/hero-v2") {
-          return {
-            ...content,
-            nbUsers: 0,
-          }
-        }
-
-        return content
-      }),
     }
   })
 
-  languages.forEach((lang) => {
+  pages.forEach((page) => {
     createPage({
-      path: normalize(lang.id, "home"),
-      component: HomeTemplate,
+      path: normalize(page.lang, page.url),
+      component: PageTemplate,
       context: {
-        langKey: lang.id,
-        messages: messages[lang.id],
+        langKey: page.lang,
+        messages: messages[page.lang],
         languages,
         stats: {},
-        updated_at: new Date(),
-        canonicals: [],
-        meta: {
-          title: "Musculatus",
-        },
+        updated_at: page.updated_at,
+        canonicals: pages
+          .filter(({ url }) => {
+            return page.url === url
+          })
+          .map(({ url, lang }) => {
+            return {
+              lang,
+              url: normalize(lang, url),
+              isDefault: lang === "en",
+            }
+          }),
+        meta: page.meta,
+        content: page.content,
       },
     })
   })
-
-  // pages.forEach((page) => {
-  //   createPage({
-  //     path: normalize(page.lang, page.url),
-  //     component: PageTemplate,
-  //     context: {
-  //       langKey: page.lang,
-  //       languages,
-  //       stats: {},
-  //       updated_at: page.updated_at,
-  //       canonicals: pages
-  //         .filter(({ url, lang }) => {
-  //           return page.url === url
-  //         })
-  //         .map(({ url, lang }) => {
-  //           return {
-  //             lang,
-  //             url: normalize(lang, url),
-  //             isDefault: lang === "en",
-  //           }
-  //         }),
-  //       meta: page.meta,
-  //       content: page.content,
-  //     },
-  //   })
-  // })
 }
 
 export { createSchemaCustomization }

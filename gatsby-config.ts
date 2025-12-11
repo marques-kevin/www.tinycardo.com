@@ -1,7 +1,7 @@
 import type { GatsbyConfig } from "gatsby"
 import path from "path"
 
-const URL = "https://www.foudroyer.com"
+const URL = "https://www.tinycardo.com"
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -19,23 +19,9 @@ const config: GatsbyConfig = {
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     `gatsby-transformer-json`,
-    {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        icon: "src/assets/logo/icon.png",
-        name: `Foudroyer`,
-        short_name: `Foudroyer`,
-        start_url: `/`,
-        background_color: `#000`,
-        theme_color: `#fbcfe8`,
-        display: `standalone`,
-      },
-    },
-
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -107,8 +93,6 @@ const config: GatsbyConfig = {
           })
         },
         filterPages: ({ path }) => {
-          if (path.includes("administration")) return true
-          if (path.includes("upsell")) return true
           if (path.includes("no-index")) return true
           return false
         },
@@ -143,8 +127,8 @@ const config: GatsbyConfig = {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/assets/logo/icon.png",
-        name: `Foudroyer`,
-        short_name: `Foudroyer`,
+        name: `Tinycardo`,
+        short_name: `Tinycardo`,
         start_url: `/`,
         background_color: `#000`,
         theme_color: `#fbcfe8`,
@@ -182,15 +166,6 @@ const config: GatsbyConfig = {
       },
     },
   ],
-}
-
-if (process.env.NODE_ENV === "production") {
-  config.plugins?.push({
-    resolve: "@sentry/gatsby",
-    options: {
-      dsn: "https://f6d6eb4963584afc93e51f7d3136b07e@o1172147.ingest.sentry.io/6267024",
-    },
-  })
 }
 
 if (process.env.NODE_ENV !== "production") {

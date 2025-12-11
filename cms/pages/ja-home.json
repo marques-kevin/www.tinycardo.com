@@ -1,1 +1,27 @@
-{"type":"page","meta":{"indexable":true,"title":"Foudroyer、Google、Yandex、Bing、Naverのインデックス作成ツール","description":"Foudroyerは、検索エンジンでトップ1に到達するために必要なすべてを一箇所に集約することを可能にします。"},"id":"82037ad5-501f-458f-95fc-a63f6280c066","published_at":"2025-02-09T04:27:39.365Z","updated_at":"2025-02-09T04:27:39.365Z","url":"home","lang":"ja","content":[{"type":"marketing/product-of-the-day","id":"525a48f9-67df-4372-b855-07ae2d8cb1a3"},{"type":"marketing/hero","label":{"value":"インデックス作成に関連する困難はもうありません。","component":"p"},"title":{"value":"2日以内に_**すべての検索エンジン**で_ページをインデックスする","component":"h1"},"description":"数秒でウェブサイトをプラグインし、無制限のページをインデックスし、Google、Bing、Yandex、Naverで高いランキングを達成します。その後、トラフィックを分析し、キーワードの位置を追跡し、機会を見つけます。"},{"type":"marketing/buttons","buttons":[{"type":"authentication","label":"無料で試す","size":"md","variant":"secondary"}]},{"type":"marketing/users-and-stars","id":"3ac14590-3228-4e15-b5ce-df967c40b292"},{"type":"marketing/testimonials","show":true},{"type":"marketing/features","label":{"value":"光速でのインデックス","component":"p"},"title":{"value":"Foudroyerインデックス化","component":"h2"},"description":"Foudroyerインデクサは、数秒で検索エンジンにあなたのウェブサイトをインデックスすることを可能にするツールです。サイトを追加してクリックするだけで、ほら、あなたのサイトがインデックスされます。","features":[{"title":{"value":"ワンクリックインデックス化","component":"h3"},"description":"ページを追加または更新しましたか？ボタンをクリックすると、あなたのサイトがインデックスされます。","video":{"autoplay":true,"alt":"ワンクリックインデックス作成デモンストレーション","src":"../assets/one-click-indexing.mp4","illustration":"../assets/one-click-indexing.jpg"}},{"title":{"value":"現在、いくつかの検索エンジンで。","component":"h3"},"description":"Google、Bing、Yandex、Naverでの同時インデックス作成はこれまでになく簡単です。","video":{"autoplay":true,"alt":"インデックス作成のためのマルチエンジン検索","src":"../assets/multi-search-engines.mp4","illustration":"../assets/multi-search-engines.jpg"}},{"title":{"value":"サイト計画は自動的に分析されます。","component":"h3"},"description":"私たちは自動的にあなたのサイトマップを分析し、瞬く間にすべてのページをインデックスします。","video":{"autoplay":true,"alt":"サイトマップを簡単に同期する","src":"../assets/sync-sitemap.mp4","illustration":"../assets/sync-sitemap.jpg"}}]},{"type":"marketing/pricing","show":true,"scope":"indexation"}]}
+{
+  "type": "page",
+  "meta": {
+    "indexable": true,
+    "title": "Tinycardo ― 語学学習のためのシンプルなフラッシュカードアプリ。",
+    "description": "Tinycardo は、Web とモバイルで使える完全無料のフラッシュカードアプリです。カードを作成・インポート・共有し、復習してあらゆる言語をマスターしましょう。"
+  },
+  "id": "82037ad5-501f-458f-95fc-a63f6280c066",
+  "published_at": "2025-02-09T04:27:39.365Z",
+  "updated_at": "2025-02-09T04:27:39.365Z",
+  "url": "home",
+  "lang": "ja",
+  "content": [
+    {
+      "type": "marketing/hero",
+      "label": {
+        "value": "すでに 1,000 以上のデッキがあらゆる言語で作成されています",
+        "component": "p"
+      },
+      "title": {
+        "value": "語学学習のためのシンプルなフラッシュカードアプリ。",
+        "component": "h1"
+      },
+      "description": "Tinycardo は、Web とモバイルで使える完全無料のフラッシュカードアプリです。カードを作成・インポート・共有し、復習してあらゆる言語をマスターしましょう。"
+    }
+  ]
+}

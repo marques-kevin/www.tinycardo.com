@@ -1,1 +1,27 @@
-{"type":"page","meta":{"indexable":true,"title":"Foudroyer، أداة فهرسة لجوجل، ياندكس، بينج، نافر","description":"تتيح لك Foudroyer تجميع كل ما تحتاجه في مكان واحد للوصول إلى المرتبة الأولى في محركات البحث."},"id":"8b4cd70f-5dac-483e-a04a-44dbc7fabdc5","published_at":"2025-02-09T04:27:53.633Z","updated_at":"2025-02-09T04:27:53.633Z","url":"home","lang":"ar","content":[{"type":"marketing/product-of-the-day","id":"525a48f9-67df-4372-b855-07ae2d8cb1a3"},{"type":"marketing/hero","label":{"value":"لا مزيد من الصعوبات المتعلقة بالفهرسة.","component":"p"},"title":{"value":"فهرس صفحاتك _على **جميع محركات البحث** في غضون يومين_","component":"h1"},"description":"قم بتوصيل موقعك في ثوانٍ، وفهرس عدد غير محدود من الصفحات، وحقق تصنيفات عالية على جوجل، بينج، ياندكس، ونافر. ثم، قم بتحليل حركة المرور الخاصة بك، وتتبع مواقع الكلمات الرئيسية، وابحث عن الفرص."},{"type":"marketing/buttons","buttons":[{"type":"authentication","label":"جرّب مجانًا","size":"md","variant":"secondary"}]},{"type":"marketing/users-and-stars","id":"3ac14590-3228-4e15-b5ce-df967c40b292"},{"type":"marketing/testimonials","show":true},{"type":"marketing/features","label":{"value":"الفهرس بسرعة الضوء","component":"p"},"title":{"value":"فهرسة Foudroyer","component":"h2"},"description":"فودرويير إندكسيشن هو أداة تتيح لك فهرسة موقعك على محركات البحث في ثوانٍ. فقط أضف موقعك، انقر، وها هو موقعك مفهرس.","features":[{"title":{"value":"فهرسة بنقرة واحدة","component":"h3"},"description":"هل أضفت أو حدّثت صفحة؟ انقر على الزر وسيتم فهرسة موقعك.","video":{"autoplay":true,"alt":"عرض توضيحي لفهرسة بنقرة واحدة","src":"../assets/one-click-indexing.mp4","illustration":"../assets/one-click-indexing.jpg"}},{"title":{"value":"الآن على عدة محركات بحث.","component":"h3"},"description":"لم يكن الفهرسة المتزامنة على Google وBing وYandex وNaver أسهل من أي وقت مضى.","video":{"autoplay":true,"alt":"البحث متعدد المحركات للفهرسة","src":"../assets/multi-search-engines.mp4","illustration":"../assets/multi-search-engines.jpg"}},{"title":{"value":"يتم تحليل مخطط الموقع تلقائيًا.","component":"h3"},"description":"نقوم بتحليل خريطة الموقع الخاصة بك تلقائيًا وفهرسة جميع صفحاتك في غمضة عين.","video":{"autoplay":true,"alt":"مزامنة خريطة الموقع بسهولة","src":"../assets/sync-sitemap.mp4","illustration":"../assets/sync-sitemap.jpg"}}]},{"type":"marketing/pricing","show":true,"scope":"indexation"}]}
+{
+  "type": "page",
+  "meta": {
+    "indexable": true,
+    "title": "Tinycardo، تطبيق بطاقات تعليمية بسيط لتعلّم اللغات.",
+    "description": "Tinycardo هو تطبيق بطاقات تعليمية مجاني بالكامل للويب والجوال. أنشئ واستورد وشارك وراجع البطاقات لتتقن أي لغة."
+  },
+  "id": "8b4cd70f-5dac-483e-a04a-44dbc7fabdc5",
+  "published_at": "2025-02-09T04:27:53.633Z",
+  "updated_at": "2025-02-09T04:27:53.633Z",
+  "url": "home",
+  "lang": "ar",
+  "content": [
+    {
+      "type": "marketing/hero",
+      "label": {
+        "value": "أُنشئ بالفعل أكثر من 1,000 مجموعة بطاقات بجميع اللغات",
+        "component": "p"
+      },
+      "title": {
+        "value": "تطبيق بطاقات تعليمية بسيط لتعلّم اللغات.",
+        "component": "h1"
+      },
+      "description": "Tinycardo هو تطبيق بطاقات تعليمية مجاني بالكامل للويب والجوال. أنشئ واستورد وشارك وراجع البطاقات لتتقن أي لغة."
+    }
+  ]
+}

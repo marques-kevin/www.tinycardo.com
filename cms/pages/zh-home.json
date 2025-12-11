@@ -1,1 +1,27 @@
-{"type":"page","meta":{"indexable":true,"title":"Foudroyer，谷歌、Yandex、必应、Naver的索引工具","description":"Foudroyer 让您可以在一个地方集中所有您需要的东西，以在搜索引擎中达到前 1 名。"},"id":"1a618e54-e6f5-4d85-be32-d2b3d26f16c9","published_at":"2025-02-09T04:27:47.351Z","updated_at":"2025-02-09T04:27:47.351Z","url":"home","lang":"zh","content":[{"type":"marketing/product-of-the-day","id":"525a48f9-67df-4372-b855-07ae2d8cb1a3"},{"type":"marketing/hero","label":{"value":"不再有与索引相关的困难。","component":"p"},"title":{"value":"在**所有搜索引擎**上在2天内索引您的页面","component":"h1"},"description":"只需几秒钟即可将您的网站接入，索引无限数量的页面，并在Google、Bing、Yandex和Naver上获得高排名。然后，分析您的流量，跟踪关键词排名，并寻找机会。"},{"type":"marketing/buttons","buttons":[{"type":"authentication","label":"免费试用","size":"md","variant":"secondary"}]},{"type":"marketing/users-and-stars","id":"3ac14590-3228-4e15-b5ce-df967c40b292"},{"type":"marketing/testimonials","show":true},{"type":"marketing/features","label":{"value":"以光速的指数","component":"p"},"title":{"value":"Foudroyer 索引","component":"h2"},"description":"Foudroyer索引是一个工具，可以让您在几秒钟内将网站索引到搜索引擎上。只需添加您的网站，点击一下，瞧，您的网站就被索引了。","features":[{"title":{"value":"一键索引","component":"h3"},"description":"您添加或更新了一个页面？点击按钮，您的网站将被索引。","video":{"autoplay":true,"alt":"一键索引演示","src":"../assets/one-click-indexing.mp4","illustration":"../assets/one-click-indexing.jpg"}},{"title":{"value":"现在在几个搜索引擎上。","component":"h3"},"description":"在谷歌、必应、Yandex 和 Naver 上同时索引从未如此简单。","video":{"autoplay":true,"alt":"多引擎搜索用于索引","src":"../assets/multi-search-engines.mp4","illustration":"../assets/multi-search-engines.jpg"}},{"title":{"value":"场地平面图会被自动分析。","component":"h3"},"description":"我们会自动分析您的网站地图，并在瞬间索引您所有的页面。","video":{"autoplay":true,"alt":"轻松同步网站地图","src":"../assets/sync-sitemap.mp4","illustration":"../assets/sync-sitemap.jpg"}}]},{"type":"marketing/pricing","show":true,"scope":"indexation"}]}
+{
+  "type": "page",
+  "meta": {
+    "indexable": true,
+    "title": "Tinycardo，一款用于语言学习的简单抽认卡应用。",
+    "description": "Tinycardo 是一款 100% 免费的网页和移动端抽认卡应用。创建、导入、分享并复习抽认卡，帮助你掌握任何语言。"
+  },
+  "id": "1a618e54-e6f5-4d85-be32-d2b3d26f16c9",
+  "published_at": "2025-02-09T04:27:47.351Z",
+  "updated_at": "2025-02-09T04:27:47.351Z",
+  "url": "home",
+  "lang": "zh",
+  "content": [
+    {
+      "type": "marketing/hero",
+      "label": {
+        "value": "已经有超过 1,000 个卡组在各种语言中创建",
+        "component": "p"
+      },
+      "title": {
+        "value": "用于语言学习的简单抽认卡应用。",
+        "component": "h1"
+      },
+      "description": "Tinycardo 是一款 100% 免费的网页和移动端抽认卡应用。创建、导入、分享并复习抽认卡，帮助你掌握任何语言。"
+    }
+  ]
+}

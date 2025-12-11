@@ -3,20 +3,8 @@
   "hero/label/end": "Already +1,000 decks created in all languages",
   "hero/title": "The simple flashcard app for language learning.",
   "hero/description": "Tinycardo is a 100% free flashcard application for web and mobile. Create, import, share and review flashcards to master any languages.",
-  "hero/actions/get-started": "Get started",
+  "hero/actions/get-started": "Let's learn a new language",
   "hero/actions/learn-more": "Learn more →",
-  "navbar/login": "Go to the app",
-  "footer/copy": "Developed by <a>Kevin Marques</a>, a French developer 🇫🇷",
-  "marketing_features_with_video/features/muscles_heatmap/name": "Smart learning statistics",
-  "marketing_features_with_video/features/muscles_heatmap/description": "Visualize your progress over time, see your review streaks, and measure mastery of your decks.",
-  "marketing_features_with_video/features/track_your_weight_progress/name": "Track your learning progress",
-  "marketing_features_with_video/features/track_your_weight_progress/description": "See how many words, phrases, or facts you’ve memorized — and what to review next.",
-  "marketing_features_with_video/features/keep_a_complete_history/name": "Keep a complete history",
-  "marketing_features_with_video/features/keep_a_complete_history/description": "A simple, intuitive interface to track what you’ve learned and when you reviewed it.",
-  "marketing_features_with_video/features/measure_your_body_parts/name": "Custom decks & cards",
-  "marketing_features_with_video/features/measure_your_body_parts/description": "Easily create your own flashcard decks, customize cards, and organize topics how you like.",
-  "marketing_features_with_video/features/know_when_your_muscles_are_sufficiently_rested/name": "Smart review reminders",
-  "marketing_features_with_video/features/know_when_your_muscles_are_sufficiently_rested/description": "Get reminders when it’s time to review and optimize your study schedule for better retention.",
-  "marketing_features_with_video/features/import_and_export_your_data/name": "Import and export your data",
-  "marketing_features_with_video/features/import_and_export_your_data/description": "Tinycardo works offline. Your data belongs to you and can be easily imported or exported."
+  "navbar/login": "Let's learn a new language",
+  "footer/copy": "Developed by <a>Kevin Marques</a>, a French developer 🇫🇷"
 }

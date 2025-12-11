@@ -1,1 +1,27 @@
-{"type":"page","meta":{"indexable":true,"title":"Foudroyer, инструмент индексирования для google, yandex, bing, naver","description":"Foudroyer позволяет вам централизовать в одном месте все, что вам нужно, чтобы достичь топ-1 в поисковых системах."},"id":"c979df45-6555-4209-bbf4-1e3147dc2093","published_at":"2025-02-09T04:27:10.931Z","updated_at":"2025-02-09T04:27:10.931Z","url":"home","lang":"ru","content":[{"type":"marketing/product-of-the-day","id":"525a48f9-67df-4372-b855-07ae2d8cb1a3"},{"type":"marketing/hero","label":{"value":"Больше никаких трудностей, связанных с индексированием.","component":"p"},"title":{"value":"Индексируйте ваши страницы _на **всех поисковых системах** за 2 дня_","component":"h1"},"description":"Подключите ваш сайт за считанные секунды, индексируйте неограниченное количество страниц и достигайте высоких позиций в Google, Bing, Yandex и Naver. Затем анализируйте ваш трафик, отслеживайте позиции ключевых слов и находите возможности."},{"type":"marketing/buttons","buttons":[{"type":"authentication","label":"Попробуйте бесплатно","size":"md","variant":"secondary"}]},{"type":"marketing/users-and-stars","id":"3ac14590-3228-4e15-b5ce-df967c40b292"},{"type":"marketing/testimonials","show":true},{"type":"marketing/features","label":{"value":"Индекс на скорости света","component":"p"},"title":{"value":"Индексация Foudroyer","component":"h2"},"description":"Foudroyer Indexation — это инструмент, который позволяет индексировать ваш сайт в поисковых системах за считанные секунды. Просто добавьте ваш сайт, нажмите, и вуаля, ваш сайт проиндексирован.","features":[{"title":{"value":"Индексация в один клик","component":"h3"},"description":"Вы добавили или обновили страницу? Нажмите кнопку, и ваш сайт будет проиндексирован.","video":{"autoplay":true,"alt":"Демонстрация индексации в один клик","src":"../assets/one-click-indexing.mp4","illustration":"../assets/one-click-indexing.jpg"}},{"title":{"value":"Теперь на нескольких поисковых системах.","component":"h3"},"description":"Одновременная индексация в Google, Bing, Yandex и Naver никогда не была проще.","video":{"autoplay":true,"alt":"многоядерный поиск для индексации","src":"../assets/multi-search-engines.mp4","illustration":"../assets/multi-search-engines.jpg"}},{"title":{"value":"План участка анализируется автоматически.","component":"h3"},"description":"Мы автоматически анализируем вашу карту сайта и индексируем все ваши страницы в мгновение ока.","video":{"autoplay":true,"alt":"легко синхронизировать карту сайта","src":"../assets/sync-sitemap.mp4","illustration":"../assets/sync-sitemap.jpg"}}]},{"type":"marketing/pricing","show":true,"scope":"indexation"}]}
+{
+  "type": "page",
+  "meta": {
+    "indexable": true,
+    "title": "Tinycardo — простое приложение с карточками для изучения языков.",
+    "description": "Tinycardo — полностью бесплатное приложение с карточками для веба и мобильных устройств. Создавайте, импортируйте, делитесь и повторяйте карточки, чтобы овладеть любыми языками."
+  },
+  "id": "c979df45-6555-4209-bbf4-1e3147dc2093",
+  "published_at": "2025-02-09T04:27:10.931Z",
+  "updated_at": "2025-02-09T04:27:10.931Z",
+  "url": "home",
+  "lang": "ru",
+  "content": [
+    {
+      "type": "marketing/hero",
+      "label": {
+        "value": "Уже создано более 1 000 колод на разных языках",
+        "component": "p"
+      },
+      "title": {
+        "value": "Простое приложение с карточками для изучения языков.",
+        "component": "h1"
+      },
+      "description": "Tinycardo — полностью бесплатное приложение с карточками для веба и мобильных устройств. Создавайте, импортируйте, делитесь и повторяйте карточки, чтобы овладеть любыми языками."
+    }
+  ]
+}

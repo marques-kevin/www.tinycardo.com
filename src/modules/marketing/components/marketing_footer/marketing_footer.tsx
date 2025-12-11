@@ -11,7 +11,7 @@ export function MarketingFooter() {
         <div className="flex flex-col items-center border-t border-base-300 py-10 sm:flex-row-reverse sm:justify-between">
           <div className="flex items-center gap-x-6">
             <a
-              href={"https://github.com/KM_Marques"}
+              href={"https://github.com/marques-kevin/www.tinycardo.com"}
               target="_blank"
               aria-label="GitHub"
               className="group"
@@ -60,7 +60,6 @@ export function MarketingFooter() {
             {formatMessage(
               {
                 id: "footer/copy",
-                defaultMessage: "Made by {a}KM_Marques{/a}",
               },
               {
                 a: (text) => (

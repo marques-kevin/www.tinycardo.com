@@ -16,7 +16,7 @@
     "translate": "tsx src/scripts/i18n.run.ts",
     "typecheck": "tsc --noEmit --skipLibCheck",
     "lint": "eslint . --quiet",
-    "proxy": "decap-server",
+    "cms": "decap-server",
     "cms:translate": "ts-node src/scripts/translate-cms.ts",
     "i18n": "tsx src/scripts/i18n.run.ts"
   },
