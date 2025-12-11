@@ -21,7 +21,16 @@
         "value": "Dil öğrenmek için basit bir flash kart uygulaması.",
         "component": "h1"
       },
-      "description": "Tinycardo, web ve mobil için %100 ücretsiz bir flash kart uygulamasıdır. Herhangi bir dili ustalıkla öğrenmek için kartlar oluşturun, içe aktarın, paylaşın ve tekrar edin."
+      "description": "Tinycardo, web ve mobil için %100 ücretsiz bir flash kart uygulamasıdır. Herhangi bir dili ustalıkla öğrenmek için kartlar oluşturun, içe aktarın, paylaşın ve tekrar edin.",
+      "buttons": [
+        {
+          "type": "authentication",
+          "label": "Yeni bir dil öğrenelim",
+          "size": "md",
+          "variant": "primary",
+          "url": "https://app.tinycardo.com"
+        }
+      ]
     }
   ]
 }

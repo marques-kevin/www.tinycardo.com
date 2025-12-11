@@ -21,7 +21,16 @@
         "value": "La aplicación de flashcards simple para aprender idiomas.",
         "component": "h1"
       },
-      "description": "Tinycardo es una aplicación de flashcards 100 % gratuita para web y móvil. Crea, importa, comparte y revisa tarjetas para dominar cualquier idioma."
+      "description": "Tinycardo es una aplicación de flashcards 100 % gratuita para web y móvil. Crea, importa, comparte y revisa tarjetas para dominar cualquier idioma.",
+      "buttons": [
+        {
+          "type": "authentication",
+          "label": "Aprendamos un nuevo idioma",
+          "size": "md",
+          "variant": "primary",
+          "url": "https://app.tinycardo.com"
+        }
+      ]
     }
   ]
 }

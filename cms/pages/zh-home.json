@@ -21,7 +21,16 @@
         "value": "用于语言学习的简单抽认卡应用。",
         "component": "h1"
       },
-      "description": "Tinycardo 是一款 100% 免费的网页和移动端抽认卡应用。创建、导入、分享并复习抽认卡，帮助你掌握任何语言。"
+      "description": "Tinycardo 是一款 100% 免费的网页和移动端抽认卡应用。创建、导入、分享并复习抽认卡，帮助你掌握任何语言。",
+      "buttons": [
+        {
+          "type": "authentication",
+          "label": "一起学习一门新语言",
+          "size": "md",
+          "variant": "primary",
+          "url": "https://app.tinycardo.com"
+        }
+      ]
     }
   ]
 }

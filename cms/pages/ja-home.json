@@ -21,7 +21,16 @@
         "value": "語学学習のためのシンプルなフラッシュカードアプリ。",
         "component": "h1"
       },
-      "description": "Tinycardo は、Web とモバイルで使える完全無料のフラッシュカードアプリです。カードを作成・インポート・共有し、復習してあらゆる言語をマスターしましょう。"
+      "description": "Tinycardo は、Web とモバイルで使える完全無料のフラッシュカードアプリです。カードを作成・インポート・共有し、復習してあらゆる言語をマスターしましょう。",
+      "buttons": [
+        {
+          "type": "authentication",
+          "label": "新しい言語を一緒に学びましょう",
+          "size": "md",
+          "variant": "primary",
+          "url": "https://app.tinycardo.com"
+        }
+      ]
     }
   ]
 }

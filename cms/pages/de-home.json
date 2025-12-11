@@ -21,7 +21,16 @@
         "value": "Die einfache Karteikarten-App zum Sprachenlernen.",
         "component": "h1"
       },
-      "description": "Tinycardo ist eine 100 % kostenlose Karteikarten-App für Web und Mobilgeräte. Erstellen, importieren, teilen und wiederholen Sie Karteikarten, um jede Sprache zu meistern."
+      "description": "Tinycardo ist eine 100 % kostenlose Karteikarten-App für Web und Mobilgeräte. Erstellen, importieren, teilen und wiederholen Sie Karteikarten, um jede Sprache zu meistern.",
+      "buttons": [
+        {
+          "type": "authentication",
+          "label": "Lass uns eine neue Sprache lernen",
+          "size": "md",
+          "variant": "primary",
+          "url": "https://app.tinycardo.com"
+        }
+      ]
     }
   ]
 }

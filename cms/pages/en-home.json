@@ -21,7 +21,16 @@
         "value": "The simple flashcard app for language learning.",
         "component": "h1"
       },
-      "description": "Tinycardo is a 100% free flashcard application for web and mobile. Create, import, share and review flashcards to master any languages."
+      "description": "Tinycardo is a 100% free flashcard application for web and mobile. Create, import, share and review flashcards to master any languages.",
+      "buttons": [
+        {
+          "type": "authentication",
+          "label": "Let's learn a new language",
+          "size": "md",
+          "variant": "primary",
+          "url": "https://app.tinycardo.com"
+        }
+      ]
     }
   ]
 }

@@ -1,11 +1,11 @@
+import { languagesAvailable } from "@/constants/langs"
+import restore from "@/i18n/.keep/restore.en.json"
+import en from "@/i18n/messages/en.json"
 import { openai } from "@ai-sdk/openai"
 import { generateText } from "ai"
 import dotenv from "dotenv"
 import { promises as fs } from "fs"
 import path from "path"
-import { languagesAvailable } from "@/constants/langs"
-import restore from "@/i18n/.keep/restore.en.json"
-import en from "@/i18n/messages/en.json"
 
 dotenv.config()
 
@@ -15,20 +15,18 @@ const translate = async (params: {
   from: string
 }) => {
   const { text } = await generateText({
-    model: openai("gpt-4o"),
-    system: `You are a translator for a SaaS (Software as a Service) application. I'll give you sentences that you have to translate into the language I submit.
+    model: openai("gpt-4o-mini"),
+    system: `You are a translator for Tinycardo, a language-learning flashcard app (web and mobile). I'll give you interface copy that you must translate into the target language I provide.
 
-        For example, if I give you from: fr, to: en, you have to translate from french to english.
+        For example, if I give you from: fr, to: en, you translate from French to English.
 
-        Please use appropriate formal/professional language suitable for a business software application. Maintain consistency in terminology and tone across translations.
+        Use a clear, friendly and motivating tone suitable for learners, while still sounding clean and professional. Keep terminology consistent across translations (e.g. how you refer to flashcards, decks, lessons, practice, etc.).
 
-        If you translate into korean, please only write in korean and no english words.
+        If you translate into Korean, please only write in Korean and do not include any English words.
 
-        Do not translate product names and technical terms like: My Search Console.
+        Do not translate product names and brands like: Tinycardo.
 
-        Foudroyer has many features, Todo (task manager), Indexation, Analytics, Sitemap, Health Check, etc.
-        
-        Give me only the translation, optimized for a professional SaaS application interface.`,
+        Give me only the translation, optimized for a modern consumer-facing language-learning app interface.`,
 
     prompt: `from:${params.from}, to:${params.to}
         

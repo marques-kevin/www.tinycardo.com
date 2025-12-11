@@ -1,10 +1,8 @@
 {
-  "hero/label/start": "Tinycardo",
-  "hero/label/end": "Already +1,000 decks created in all languages",
-  "hero/title": "The simple flashcard app for language learning.",
-  "hero/description": "Tinycardo is a 100% free flashcard application for web and mobile. Create, import, share and review flashcards to master any languages.",
-  "hero/actions/get-started": "Let's learn a new language",
-  "hero/actions/learn-more": "Learn more →",
-  "navbar/login": "Let's learn a new language",
-  "footer/copy": "Developed by <a>Kevin Marques</a>, a French developer 🇫🇷"
+  "footer/copy": "Developed by <a>Kevin Marques</a>, a French developer 🇫🇷",
+  "global_modal/close": "Close",
+  "marketing_tts_modal/title": "Auto generated high quality audio for your flashcards",
+  "marketing_tts_modal/description": "When you add cards to your deck, we will automatically generate high-quality audio for you. This way, you can listen to them in a clear and easy way. No need to import manualluy audio anymore!",
+  "marketing_ai_explainer_modal/title": "AI will help you understand the card",
+  "marketing_ai_explainer_modal/description": "If a flashcard is too difficult to understand, don’t worry! You can tap the helper button to call on Tinycardo's AI assistant. It'll will explain the card to you in a clear and simple way — so you can keep learning with confidence!"
 }

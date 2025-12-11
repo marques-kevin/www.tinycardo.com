@@ -66,7 +66,7 @@ export function MarketingFooter() {
                   <a
                     href="https://twitter.com/KM_Marques"
                     target="_blank"
-                    className="link link-primary"
+                    className="link text-primary-content"
                   >
                     {text}
                   </a>

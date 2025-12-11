@@ -69,6 +69,7 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
           title: "TextWithHtmlTag",
           image: "Global__Cms__Image",
           description: "String",
+          buttons: "[MarketingButtonItem]",
         },
       }),
 

@@ -8,6 +8,7 @@ export type MarketingHeroEntity = {
   label?: HtmlTagElementEntity
   title: HtmlTagElementEntity
   description: string
+  buttons?: MarketingButtonItemEntity[]
 }
 
 type FaqItem = {

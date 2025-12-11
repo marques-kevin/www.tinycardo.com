@@ -74,6 +74,13 @@ export const queryGraphql = async ({ graphql, reporter }) => {
               ... on MarketingHero {
                 description
                 type
+                buttons {
+                  label
+                  type
+                  url
+                  size
+                  variant
+                }
                 title {
                   component
                   value
