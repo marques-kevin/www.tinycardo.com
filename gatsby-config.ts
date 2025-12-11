@@ -39,6 +39,13 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "navbar",
+        path: "./cms/navbar",
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "assets",
         path: "./src/assets/",
       },
@@ -57,6 +64,7 @@ const config: GatsbyConfig = {
         path: "./src/pages/",
       },
     },
+
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {

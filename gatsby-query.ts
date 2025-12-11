@@ -2,6 +2,20 @@ export const queryGraphql = async ({ graphql, reporter }) => {
   const result = await graphql(
     `
       {
+        navbars: allNavbarJson {
+          nodes {
+            lang
+            tabs {
+              label
+              link
+            }
+            right_tabs {
+              label
+              link
+            }
+          }
+        }
+
         news: allNewsJson {
           edges {
             node {

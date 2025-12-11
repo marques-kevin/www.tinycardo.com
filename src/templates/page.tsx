@@ -11,7 +11,20 @@ import { MarketingTtsModal } from "@/modules/marketing/components/marketing_tts_
 import { SimpleFeatures } from "@/modules/marketing/components/simple-features/simple-features"
 import { Title } from "@/modules/marketing/components/title/title"
 
-function Page(props: { pageContext: PageEntity & { langKey: string } }) {
+type NavbarEntity = {
+  tabs: Array<{
+    label: string
+    link: string
+  }>
+  right_tabs: Array<{
+    label: string
+    link: string
+  }>
+}
+
+function Page(props: {
+  pageContext: PageEntity & { langKey: string; navbar: NavbarEntity }
+}) {
   console.log(props)
 
   return (
@@ -24,7 +37,10 @@ function Page(props: { pageContext: PageEntity & { langKey: string } }) {
       />
 
       <main className="space-y-8">
-        <MarketingNavbar />
+        <MarketingNavbar
+          tabs={props.pageContext.navbar.tabs}
+          right_tabs={props.pageContext.navbar.right_tabs}
+        />
 
         {props.pageContext.content.map((content, index) => {
           if (content.type === "marketing/simple-features") {

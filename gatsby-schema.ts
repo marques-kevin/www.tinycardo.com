@@ -497,6 +497,17 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
         tabs: [FooterTab]
         networks: [FooterNetwork]
       }
+
+      type NavbarTab {
+        label: String
+        link: String
+      }
+
+      type NavbarJson implements Node {
+        lang: String
+        tabs: [NavbarTab]
+        right_tabs: [NavbarTab]
+      }
       `,
     ])
   }

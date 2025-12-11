@@ -42,6 +42,8 @@ export const createPages: GatsbyNode["createPages"] = async ({
 
   const result = await queryGraphql({ graphql, reporter })
 
+  const navbars = result.data.navbars.nodes
+
   const pages = result.data.pages.nodes.map((page) => {
     return {
       ...page,
@@ -55,6 +57,7 @@ export const createPages: GatsbyNode["createPages"] = async ({
       context: {
         langKey: page.lang,
         messages: messages[page.lang],
+        navbar: navbars.find((navbar) => navbar.lang === page.lang),
         languages,
         stats: {},
         updated_at: page.updated_at,

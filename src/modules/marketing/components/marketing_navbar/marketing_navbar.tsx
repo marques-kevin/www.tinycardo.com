@@ -1,15 +1,15 @@
-import { ITranslations } from "@/interfaces/ITranslations"
 import { GlobalLogo } from "@/modules/global/components/global_logo/global_logo"
-import { useIntl } from "react-intl"
 
-const tabs: Array<{
-  name: ITranslations["keys"]
-  href: string
-}> = []
-
-export const MarketingNavbar = () => {
-  const { formatMessage } = useIntl()
-
+export const MarketingNavbar = (props: {
+  tabs: Array<{
+    label: string
+    link: string
+  }>
+  right_tabs: Array<{
+    label: string
+    link: string
+  }>
+}) => {
   return (
     <div className="md:mt-2 md:px-4 absolute inset-x-0 top-0 z-50">
       <nav className="bg-accent text-accent-content md:border-accent-content/20 md:rounded-box border-b-accent-content/20 w-full border-2 border-transparent py-2 pl-4 md:px-2">
@@ -28,17 +28,21 @@ export const MarketingNavbar = () => {
             </span>
           </a>
 
-          {tabs.map((tab) => (
-            <a className="btn btn-ghost" key={tab.name} href={tab.href}>
-              {formatMessage({
-                id: tab.name,
-              })}
-            </a>
-          ))}
+          <div>
+            {props.tabs.map((tab) => (
+              <a className="btn btn-ghost" key={tab.label} href={tab.link}>
+                {tab.label}
+              </a>
+            ))}
+          </div>
 
-          <a href="https://app.tinycardo.com" className="btn btn-primary">
-            {formatMessage({ id: "navbar/login" })}
-          </a>
+          <div>
+            {props.right_tabs.map((tab) => (
+              <a className="btn btn-primary" key={tab.label} href={tab.link}>
+                {tab.label}
+              </a>
+            ))}
+          </div>
         </div>
       </nav>
     </div>
